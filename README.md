@@ -57,6 +57,30 @@ to create production should run yarn build
 sudo yarn build
 ```
 
+
+
 # storybook
 it's place to explain react UI component
+install storybook cli
+```sh
+sudo npm i -g @storybook/cli
+getstorybook
+yarn run storybook
+```
 
+# reactstrap
+installation
+```sh
+npm install --save bootstrap@4.1.1
+npm install --save reactstrap
+```
+
+set css on index.js
+```js
+import 'bootstrap/dist/css/bootstrap.css'
+```
+
+# react router
+```sh
+npm install --save react-router-dom
+```

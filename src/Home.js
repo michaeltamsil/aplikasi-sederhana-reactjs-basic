@@ -1,13 +1,8 @@
 import React, { Component } from 'react'
-//import React from 'react';
-import logo from './logo.svg'
-import 'bootstrap/dist/css/bootstrap.css'
-import './App.css'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
-import { Button } from 'reactstrap'
-//import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+class Home extends Component {
 
-class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -38,7 +33,7 @@ class App extends Component {
               To get started, edit <code>src/App.js</code> and save to reload.
                     <div>
                         <input type="input" name="nama" ref={this.field.nama}/>
-                        <Button type="button" onClick={this.handleClick}>Kirim</Button>
+                        <button type="button" onClick={this.handleClick}>Kirim</button>
                     </div>
                     <h1>{this.state.nama}</h1>
                 </p>
@@ -47,4 +42,4 @@ class App extends Component {
     }
 }
 
-export default App
+export default Home
