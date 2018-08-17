@@ -32,7 +32,7 @@ eslint --init
 ```
 
 on process choose javascript so the file will named with .js
-install plugin vscode so can add user setting
+install eslint plugin vscode so can add user setting
 
 * setup on vscode  on user setting
 ```js 
